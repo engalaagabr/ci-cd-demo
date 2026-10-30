@@ -1,0 +1,75 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+.env/
+__pypackages__/
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# Test and tooling output
+.pytest_cache/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.pyre/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+junit.xml
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Runtime logs
+*.log
+*.log.*
+logs/
+
+# Local databases and database backups
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.dump
+*.pgdump
+*.pg_dump
+*.backup
+*.sql.gz
+
+# Local artifacts from previous versions
+data/contracts/
+:memory:*.ses
+
+PROJECT_OVERVIEW.md
+
+# Uploaded profile pictures
+app/media/profile_pics/*
+!app/media/profile_pics/.gitkeep
